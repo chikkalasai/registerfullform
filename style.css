@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, sans-serif;
+    
+    background-image: radial-gradient(rgba(13, 237, 253, 0.744),black);
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#hello{
+    text-align: center;
+   
+}
+form{
+    border-radius:60px;
+    max-width: 450px;
+    margin: 60px auto;
+    padding: 70px;
+    background-image: linear-gradient(rgb(214, 80, 22),rgb(245, 28, 64));
+    color: #ccc;
+    
+    
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1.5px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(219, 10, 10, 0.766);
+    color: #fff;
+    
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,input[type="reset"]:hover {
+    background-color: green;
+}

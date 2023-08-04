@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final_Form</title>
+    <style>
+        
+    </style>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="hello">
+        <h1>Registration Form</h1>
+    </div>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br>
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile" required><br>
+        <label for="gmail">Gmail:</label>
+        <input type="email" id="gmail" name="gmail" required><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+        <label for="inst">Institution Name:</label>
+        <input type="text" id="inst" name="inst" required><br>
+        <label for="fav-color">Favorite Color:</label>
+        <input type="color" id="fav-color" name="fav-color"><br>
+        <label>Favorite Web Language:</label><br>
+        <input type="radio" id="html" name="fav-language" value="HTML">
+        <label for="html">C Lang</label><br>
+        <input type="radio" id="css" name="fav-language" value="CSS">
+        <label for="css">PYTHON</label><br>
+        <input type="radio" id="javascript" name="fav-language" value="JavaScript">
+        <label for="javascript">JAVA</label><br>
+        <input type="radio" id="javascript" name="fav-language" value="JavaScript">
+        <label for="javascript">HTML & CSS</label><br>
+        
+        <label for="knowledge-range">Knowledge Range:</label>
+        <input type="range" id="knowledge-range" name="knowledge-range" min="1" max="100" step="1"><br>
+
+        <label for="resume">Upload Resume:</label>  
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx"><br>
+        <label for="additional-info">Additional Information:</label>
+        <textarea id="additional-info" name="additional-info" rows="4"></textarea><br>
+        <input type="checkbox" id="correct-info" name="correct-info" required>
+        <label for="correct-info">I confirm that the information provided above is correct.</label><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
